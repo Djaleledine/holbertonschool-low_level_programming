@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+/**
+ * main - this is the main the function of this program
+ *
+ * Return: 0
+ */
+int main(void)
+{
+	printf("Size of a char: %lu byte(s)", sizeof(char));
+	return (0);
+}
