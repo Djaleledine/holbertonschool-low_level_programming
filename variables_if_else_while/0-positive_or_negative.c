@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /**                                                                                                                    * main - this is the main the function of this program                                                                 *                                                                                                                      * Return: 0                                                                                                            */
