@@ -8,15 +8,11 @@
  */
 void jack_bauer(void)
 {
-	int a;
-	int b;
-	int c;
-	int d;
+	int a = 0;
+	int b = 0;
+	int c = 0;
+	int d = 0;
 
-	a = 0;
-	b = 0;
-	c = 0;
-	d = 0;
 	while (a <= 2)
 	{
 		while (c <= 5)
@@ -50,16 +46,11 @@ void jack_bauer(void)
 				a = a + 1;
 			}
 		}
-		else
+		else if (b <= 3)
 		{
-			if (b <= 3)
-			{
-				b++;
-			}
-			else
-			{
-				break;
-			}
+			b = b + 1;
 		}
+		else
+			break;
 	}
 }
