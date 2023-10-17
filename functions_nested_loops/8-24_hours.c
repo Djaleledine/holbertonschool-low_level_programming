@@ -26,8 +26,7 @@ void jack_bauer(void)
 				_putchar('0' + d);
 				_putchar('\n');
 				d = d + 1;
-			}
-			else
+			}else
 			{
 				d = 0;
 				c = c + 1;
@@ -44,6 +43,9 @@ void jack_bauer(void)
 				a = a + 1;
 			}
 		}
-		else b < 3 ? b++ : a++;
+		else if (b < 3)
+			b++;
+		else
+			a++;
 	}
 }
