@@ -44,7 +44,8 @@ void jack_bauer(void)
 				a = a + 1;
 			}
 		}
-		else b < 3 ? b++ : a++
-			     ;
+		else b < 3 ? b++;
+		else
+			a++;
 	}
 }
