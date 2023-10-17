@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * _islower - cheks if it is lowercase
- *
- * Description: Checks if the char is 
+ * @c: is the char being checked
+ * Description: Checks if the char is
  * lowercase
  *
  * Return: 1 if lowercase else 0
@@ -15,7 +15,7 @@ int _islower(int c)
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (c == ch)
-			return 1;
+			return (1);
 	}
-	return 0;
+	return (0);
 }
