@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet - Print the Alphabet
+ * _islower - cheks if it is lowercase
  *
- * Description: Prints the Alphabet in
+ * Description: Checks if the char is 
  * lowercase
  *
- * Return: 0
+ * Return: 1 if lowercase else 0
  */
-int print_alphabet(int c)
+int _islower(int c)
 {
 	char ch;
 
