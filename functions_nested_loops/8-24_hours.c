@@ -36,7 +36,7 @@ void jack_bauer(void)
 		c = 0;
 		if (a < 2)
 		{
-			if (b <= 9)
+			if (b < 9)
 				b = b + 1;
 			else
 			{
@@ -44,7 +44,7 @@ void jack_bauer(void)
 				a = a + 1;
 			}
 		}
-		else if (b <= 3)
+		else if (b < 3)
 			b = b + 1;
 		else
 			break;
