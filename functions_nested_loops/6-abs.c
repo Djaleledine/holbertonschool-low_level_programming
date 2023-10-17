@@ -4,7 +4,7 @@
  * _abs - return the absolute value
  * @n: the number
  * Description: return the absolute value of n
- * 
+ *
  *
  * Return: the absolute value of n
  */
