@@ -33,7 +33,7 @@ void jack_bauer(void)
 			}
 			else
 			{
-				d = 0
+				d = 0;
 				c = c + 1;
 			}
 		}
