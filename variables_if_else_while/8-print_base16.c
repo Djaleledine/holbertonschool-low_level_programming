@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: Prints the alphabet in lowercase followed by a new line
+ * Description: Prints the alphabet in lowercase
+ * then in Uppercase followed by a new line
  * using the putchar function.
  *
  * Return: 0
@@ -13,6 +14,8 @@ int main(void)
 	char c;
 
 	for (c = '0'; c <= '9'; c++)
+		putchar(c);
+	for (c = 'a'; c <= 'f'; c++)
 		putchar(c);
 
 	putchar('\n');
