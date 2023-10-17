@@ -3,7 +3,7 @@
 /**
  * print_alphabet - Print the Alphabet
  *
- * Description: Prints the Alphabet in 
+ * Description: Prints the Alphabet in
  * lowercase
  *
  * Return: 0
