@@ -19,7 +19,7 @@ int add(int n, int n1)
 		_putchar('-');
 		sum = sum * -1;
 	}
-	if (sum = 0)
+	if (sum == 0)
 	{
 		_putchar('0');
 		return(sum);
