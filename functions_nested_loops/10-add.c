@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include "main.h"
+void print_int(int num)
+{
+	if (num / 10)
+		print_int(num);
+	_putchar('0' + (num % 10));
+}
 /**
  * add - return the sum of two numbers
  * @n: first number
@@ -27,9 +33,4 @@ int add(int n, int n1)
 	print_int(sum);
 	return (sum);
 }
-void print_int(int num)
-{
-	if (num / 10)
-		print_int(num);
-	_putchar('0' + (num % 10));
-}
+
