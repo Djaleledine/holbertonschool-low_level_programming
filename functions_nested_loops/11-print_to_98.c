@@ -20,10 +20,14 @@ void print_to_98(int n)
 		}
 	} else if (n < 98)
 	{
-		n = n + 1;
-		printf(", %d", n);
+		while (n < 98)
+		{
+			n = n + 1;
+			printf(", %d", n);
+		}
+	} else
+	{
+		printf("98"); 
 	}
-	_putchar('9');
-	_putchar('8');
-	_putchar('\n');
+	
 }
