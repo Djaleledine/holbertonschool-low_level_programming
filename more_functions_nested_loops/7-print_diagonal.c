@@ -22,7 +22,7 @@ void print_line(int n)
 			for (j = 0; j < i; j++)
 				putchar(' ');
 			putchar('\\');
-			putchar('\n')
+			putchar('\n');
 		}
 	}
 }
