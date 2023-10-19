@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * mul - description
+ * print_numbers - description
  * Description
  *
  * Return: print numbers
@@ -12,7 +12,7 @@ void print_numbers(void)
 
 	for (n = 0; n <= 9; n++)
 	{
-		_putchar('0' + n);
+		putchar('0' + n);
 	}
-	_putchar('\n')
+	putchar('\n');
 }
