@@ -14,7 +14,7 @@ int _isdigit(int c)
 
 	for (ch = 0; ch <= 9; ch++)
 	{
-		if (c == ch)
+		if ((int)c == (int)ch)
 			return (1);
 		printf(" %d et %d", c, ch);
 	}
