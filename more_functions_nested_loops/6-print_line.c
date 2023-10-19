@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  * print_line - description
+ * @n: putchar
  * Description
  *
  * Return: print numbers
