@@ -16,6 +16,7 @@ int _isdigit(int c)
 	{
 		if (c == ch)
 			return (1);
+		printf(" %d et %d", c, ch);
 	}
 	return (0);
 }
