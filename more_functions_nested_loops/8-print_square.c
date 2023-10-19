@@ -7,7 +7,7 @@
  *
  * Return: print numbers
  */
-void print_diagonal(int size)
+void print_square(int size)
 {
 	int i;
 	int j;
