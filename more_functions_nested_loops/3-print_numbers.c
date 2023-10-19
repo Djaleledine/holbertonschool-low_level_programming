@@ -1,7 +1,3 @@
-
-
-
-
 #include <stdio.h>
 #include "main.h"
 /**
@@ -10,7 +6,7 @@
  *
  * Return: print numbers
  */
-void print_numbers(void)
+void print_numbers (void)
 {
 	int n;
 
